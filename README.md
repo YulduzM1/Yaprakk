@@ -40,7 +40,8 @@ A Turkmen recipe app where users can share their favorite recipes and add catego
 * [x] User can search for posts that have certain tags
 
 ## 1A. Gif Walkthrough
-<img src="https://imgur.com/a/kjUgmq2.gif"/>
+![Imgur Image](https://imgur.com/a/kjUgmq2.gif)
+
 
 Click here: https://imgur.com/a/qvl7VF1.gif
 
