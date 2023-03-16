@@ -124,7 +124,7 @@ Preliminary:
 
 ### [BONUS] Digital Wireframes & Mockups
 
-<img src="https://imgur.com/HKJXedG.gif">
+<img src="https://imgur.com/a/kjUgmq2.gif">
 
 
 ### [BONUS] Interactive Prototype
