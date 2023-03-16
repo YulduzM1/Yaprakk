@@ -32,15 +32,14 @@ A Turkmen recipe app where users can share their favorite recipes and add catego
 * [x] User can create a new account
 * [x] User can post a recipe and add appropriate tags
 * [x] User can see posted recipes
-* [x] User can take a photo, add a prep Time, cook Time, and post it to the server.
+* [x] User can take a photo, add a prep Time, cook Time, tags, and post it to the server.
 * [x] User can view the last 20 recipes. 
 * [x] User can view existing posts from other users
-* [x] User can like/dislike these posts, and will be less likely to see poorly received posts
-* [x] User can save recipes they love and view them later
+* [x] User can like the posts
+* [x] User can save recipes they love and view them later in Favorite View
 * [x] User can search for posts that have certain tags
 
 ## 1A. Gif Walkthrough
-
 
 **Future Nice-to-have Stories**
 * [ ] User can join communities around certain dietary or culinary topics / categories and see recipes liked by that community
@@ -54,6 +53,7 @@ Preliminary:
    * [x] User can login to the app
    * [x] User can create an account
    * [x] **Optional**: User can select topics they like while creating their account
+   
 * Home Page
     * This is a tableview
    * [x] User can see recipes and the tags / likes / dislikes associated
@@ -62,27 +62,24 @@ Preliminary:
    * [x] User can infinite scroll through recipes
    * [x] User can add filters to the page to only see certain posts
    * [x] **Optional**: User can use a search bar to search for a particular recipe
+   
 * Detailed Recipe Page
     * [x] User can see the ingredients, the steps
-    * [x] User can view a story associated with the recipe (e.g. this was my grandma's favorite dish for thanksgiving blah blah blah)
-    * [x] User can choose to skip this story
-    * [x] User can view a set of tips (e.g. you can use more sugar to make cakier cookies, you want to use a very hot skillet, you want to mix the batter very gently, etc.)
-    * [x] User can skip the tips
-    * [ ] **Optional**: User can post and see comments on the recipe
-    * [ ] **Optional**: if the user created this recipe, they can edit or delete it
+    * [x] Users that create the recipes can edit them
+    
 * Create a Recipe
-    * [ ] User can view a template to help them separate their recipe into logical components: ingredients, steps, story, tips
-    * [ ] User can cancel creation of their recipe
+    * [x] User can view a template to help them separate their recipe into logical components: ingredients, steps, story, tips
+
 * Feed
-    * [x] User can view the recipes
+    * [x] User can view the recipes up to 20 posts
+    
 * Favorite Page
     * Tableview
     * [x] User can see the recipes in the Favorite Page
 
 * Account
     * [x] User can logout
-    * [ ] **Optional:** User can activate dark mode
-    * [ ] **Optional:** User can view all the recipes they've created
+
 * Communities (future)
     * [ ] User can view existing communities
     * [ ] User can view a summary of each community modally
