@@ -1,0 +1,6 @@
+framework module Pods_Parsely_ParselyUITests {
+  umbrella header "Pods-Parsely-ParselyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

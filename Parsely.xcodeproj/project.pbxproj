@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034D811A28007D3C00109660 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D811928007D3C00109660 /* AppDelegate.swift */; };
+		034D811C28007D3C00109660 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D811B28007D3C00109660 /* SceneDelegate.swift */; };
+		034D811E28007D3C00109660 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D811D28007D3C00109660 /* ViewController.swift */; };
+		034D812128007D3C00109660 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034D811F28007D3C00109660 /* Main.storyboard */; };
+		034D812328007D4000109660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034D812228007D4000109660 /* Assets.xcassets */; };
+		034D812628007D4000109660 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034D812428007D4000109660 /* LaunchScreen.storyboard */; };
+		034D813128007D4100109660 /* ParselyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D813028007D4100109660 /* ParselyTests.swift */; };
+		034D813B28007D4100109660 /* ParselyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D813A28007D4100109660 /* ParselyUITests.swift */; };
+		034D813D28007D4100109660 /* ParselyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D813C28007D4100109660 /* ParselyUITestsLaunchTests.swift */; };
+		034D814A2800883D00109660 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D81492800883D00109660 /* LoginViewController.swift */; };
+		034D814C2800896D00109660 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 034D814B2800896D00109660 /* FeedViewController.swift */; };
+		03642AD82813617000BC490A /* FavoriteRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03642AD72813617000BC490A /* FavoriteRecipesViewController.swift */; };
+		03642ADA281361CF00BC490A /* FavoriteRecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03642AD9281361CF00BC490A /* FavoriteRecipeCell.swift */; };
+		03642ADC281386F800BC490A /* RecipeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03642ADB281386F800BC490A /* RecipeDetailsViewController.swift */; };
+		ADF1BDDC90CDDD9F651F8DF1 /* Pods_Parsely.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0556D79EAC9BAB0D79369289 /* Pods_Parsely.framework */; };
+		B5260F8BE4C2B6C5CC49C43C /* Pods_ParselyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD727BC7D321F5ACE5A30CD6 /* Pods_ParselyTests.framework */; };
+		BA70B0BA4B9FE3378997DD95 /* Pods_Parsely_ParselyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033653C7D516DEEC9DE60C28 /* Pods_Parsely_ParselyUITests.framework */; };
+		CD04F09C2800E7AE004592E3 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F09B2800E7AD004592E3 /* RecipeCell.swift */; };
+		CD04F09E2800E7DD004592E3 /* CreateRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F09D2800E7DD004592E3 /* CreateRecipeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		034D812D28007D4100109660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034D810E28007D3C00109660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034D811528007D3C00109660;
+			remoteInfo = Parsely;
+		};
+		034D813728007D4100109660 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 034D810E28007D3C00109660 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034D811528007D3C00109660;
+			remoteInfo = Parsely;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033653C7D516DEEC9DE60C28 /* Pods_Parsely_ParselyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parsely_ParselyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		034D811628007D3C00109660 /* Parsely.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parsely.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		034D811928007D3C00109660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		034D811B28007D3C00109660 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		034D811D28007D3C00109660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		034D812028007D3C00109660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		034D812228007D4000109660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		034D812528007D4000109660 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		034D812728007D4000109660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034D812C28007D4100109660 /* ParselyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParselyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		034D813028007D4100109660 /* ParselyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParselyTests.swift; sourceTree = "<group>"; };
+		034D813628007D4100109660 /* ParselyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParselyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		034D813A28007D4100109660 /* ParselyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParselyUITests.swift; sourceTree = "<group>"; };
+		034D813C28007D4100109660 /* ParselyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParselyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		034D81492800883D00109660 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		034D814B2800896D00109660 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		03642AD72813617000BC490A /* FavoriteRecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRecipesViewController.swift; sourceTree = "<group>"; };
+		03642AD9281361CF00BC490A /* FavoriteRecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteRecipeCell.swift; sourceTree = "<group>"; };
+		03642ADB281386F800BC490A /* RecipeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewController.swift; sourceTree = "<group>"; };
+		0556D79EAC9BAB0D79369289 /* Pods_Parsely.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parsely.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D889AD7D91A4A4CF2C8D24 /* Pods-ParselyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParselyTests.debug.xcconfig"; path = "Target Support Files/Pods-ParselyTests/Pods-ParselyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		57941D7238D1A61BB4021818 /* Pods-Parsely-ParselyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsely-ParselyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Parsely-ParselyUITests/Pods-Parsely-ParselyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D20FB272A0AF88661C2D897 /* Pods-Parsely-ParselyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsely-ParselyUITests.release.xcconfig"; path = "Target Support Files/Pods-Parsely-ParselyUITests/Pods-Parsely-ParselyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF3D241715E7F9BC6295596C /* Pods-Parsely.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsely.release.xcconfig"; path = "Target Support Files/Pods-Parsely/Pods-Parsely.release.xcconfig"; sourceTree = "<group>"; };
+		CD04F09B2800E7AD004592E3 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		CD04F09D2800E7DD004592E3 /* CreateRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateRecipeViewController.swift; sourceTree = "<group>"; };
+		D43021A44B981601092E95F2 /* Pods-Parsely.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parsely.debug.xcconfig"; path = "Target Support Files/Pods-Parsely/Pods-Parsely.debug.xcconfig"; sourceTree = "<group>"; };
+		EAACF8AB618F5C3E15A05CB8 /* Pods-ParselyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParselyTests.release.xcconfig"; path = "Target Support Files/Pods-ParselyTests/Pods-ParselyTests.release.xcconfig"; sourceTree = "<group>"; };
+		FD727BC7D321F5ACE5A30CD6 /* Pods_ParselyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParselyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034D811328007D3C00109660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF1BDDC90CDDD9F651F8DF1 /* Pods_Parsely.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034D812928007D4100109660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5260F8BE4C2B6C5CC49C43C /* Pods_ParselyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034D813328007D4100109660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA70B0BA4B9FE3378997DD95 /* Pods_Parsely_ParselyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034D810D28007D3C00109660 = {
+			isa = PBXGroup;
+			children = (
+				034D811828007D3C00109660 /* Parsely */,
+				034D812F28007D4100109660 /* ParselyTests */,
+				034D813928007D4100109660 /* ParselyUITests */,
+				034D811728007D3C00109660 /* Products */,
+				EB3897B56A8A1F6A929F7F07 /* Pods */,
+				D5FA5E3B9A7312FA243EF9D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		034D811728007D3C00109660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034D811628007D3C00109660 /* Parsely.app */,
+				034D812C28007D4100109660 /* ParselyTests.xctest */,
+				034D813628007D4100109660 /* ParselyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034D811828007D3C00109660 /* Parsely */ = {
+			isa = PBXGroup;
+			children = (
+				034D811928007D3C00109660 /* AppDelegate.swift */,
+				034D811B28007D3C00109660 /* SceneDelegate.swift */,
+				034D811D28007D3C00109660 /* ViewController.swift */,
+				034D811F28007D3C00109660 /* Main.storyboard */,
+				CD04F09B2800E7AD004592E3 /* RecipeCell.swift */,
+				CD04F09D2800E7DD004592E3 /* CreateRecipeViewController.swift */,
+				034D812228007D4000109660 /* Assets.xcassets */,
+				034D812428007D4000109660 /* LaunchScreen.storyboard */,
+				034D812728007D4000109660 /* Info.plist */,
+				034D81492800883D00109660 /* LoginViewController.swift */,
+				034D814B2800896D00109660 /* FeedViewController.swift */,
+				03642AD72813617000BC490A /* FavoriteRecipesViewController.swift */,
+				03642AD9281361CF00BC490A /* FavoriteRecipeCell.swift */,
+				03642ADB281386F800BC490A /* RecipeDetailsViewController.swift */,
+			);
+			path = Parsely;
+			sourceTree = "<group>";
+		};
+		034D812F28007D4100109660 /* ParselyTests */ = {
+			isa = PBXGroup;
+			children = (
+				034D813028007D4100109660 /* ParselyTests.swift */,
+			);
+			path = ParselyTests;
+			sourceTree = "<group>";
+		};
+		034D813928007D4100109660 /* ParselyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				034D813A28007D4100109660 /* ParselyUITests.swift */,
+				034D813C28007D4100109660 /* ParselyUITestsLaunchTests.swift */,
+			);
+			path = ParselyUITests;
+			sourceTree = "<group>";
+		};
+		D5FA5E3B9A7312FA243EF9D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0556D79EAC9BAB0D79369289 /* Pods_Parsely.framework */,
+				033653C7D516DEEC9DE60C28 /* Pods_Parsely_ParselyUITests.framework */,
+				FD727BC7D321F5ACE5A30CD6 /* Pods_ParselyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB3897B56A8A1F6A929F7F07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D43021A44B981601092E95F2 /* Pods-Parsely.debug.xcconfig */,
+				AF3D241715E7F9BC6295596C /* Pods-Parsely.release.xcconfig */,
+				57941D7238D1A61BB4021818 /* Pods-Parsely-ParselyUITests.debug.xcconfig */,
+				5D20FB272A0AF88661C2D897 /* Pods-Parsely-ParselyUITests.release.xcconfig */,
+				20D889AD7D91A4A4CF2C8D24 /* Pods-ParselyTests.debug.xcconfig */,
+				EAACF8AB618F5C3E15A05CB8 /* Pods-ParselyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034D811528007D3C00109660 /* Parsely */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034D814028007D4100109660 /* Build configuration list for PBXNativeTarget "Parsely" */;
+			buildPhases = (
+				F81EB7415D2FCC3E24AB4E43 /* [CP] Check Pods Manifest.lock */,
+				034D811228007D3C00109660 /* Sources */,
+				034D811328007D3C00109660 /* Frameworks */,
+				034D811428007D3C00109660 /* Resources */,
+				6080B888F92F1103E6F79D61 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Parsely;
+			productName = Parsely;
+			productReference = 034D811628007D3C00109660 /* Parsely.app */;
+			productType = "com.apple.product-type.application";
+		};
+		034D812B28007D4100109660 /* ParselyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034D814328007D4100109660 /* Build configuration list for PBXNativeTarget "ParselyTests" */;
+			buildPhases = (
+				8EEF2EDE6185583C802110F4 /* [CP] Check Pods Manifest.lock */,
+				034D812828007D4100109660 /* Sources */,
+				034D812928007D4100109660 /* Frameworks */,
+				034D812A28007D4100109660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034D812E28007D4100109660 /* PBXTargetDependency */,
+			);
+			name = ParselyTests;
+			productName = ParselyTests;
+			productReference = 034D812C28007D4100109660 /* ParselyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		034D813528007D4100109660 /* ParselyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034D814628007D4100109660 /* Build configuration list for PBXNativeTarget "ParselyUITests" */;
+			buildPhases = (
+				F88BE72F1C2095B2B3A537D5 /* [CP] Check Pods Manifest.lock */,
+				034D813228007D4100109660 /* Sources */,
+				034D813328007D4100109660 /* Frameworks */,
+				034D813428007D4100109660 /* Resources */,
+				5D7B4379FD8DF4DC067E921C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				034D813828007D4100109660 /* PBXTargetDependency */,
+			);
+			name = ParselyUITests;
+			productName = ParselyUITests;
+			productReference = 034D813628007D4100109660 /* ParselyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034D810E28007D3C00109660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					034D811528007D3C00109660 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					034D812B28007D4100109660 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 034D811528007D3C00109660;
+					};
+					034D813528007D4100109660 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 034D811528007D3C00109660;
+					};
+				};
+			};
+			buildConfigurationList = 034D811128007D3C00109660 /* Build configuration list for PBXProject "Parsely" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 034D810D28007D3C00109660;
+			productRefGroup = 034D811728007D3C00109660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034D811528007D3C00109660 /* Parsely */,
+				034D812B28007D4100109660 /* ParselyTests */,
+				034D813528007D4100109660 /* ParselyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034D811428007D3C00109660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034D812628007D4000109660 /* LaunchScreen.storyboard in Resources */,
+				034D812328007D4000109660 /* Assets.xcassets in Resources */,
+				034D812128007D3C00109660 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034D812A28007D4100109660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034D813428007D4100109660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D7B4379FD8DF4DC067E921C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parsely-ParselyUITests/Pods-Parsely-ParselyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parsely-ParselyUITests/Pods-Parsely-ParselyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Parsely-ParselyUITests/Pods-Parsely-ParselyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6080B888F92F1103E6F79D61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parsely/Pods-Parsely-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parsely/Pods-Parsely-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Parsely/Pods-Parsely-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EEF2EDE6185583C802110F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParselyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F81EB7415D2FCC3E24AB4E43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parsely-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F88BE72F1C2095B2B3A537D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parsely-ParselyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034D811228007D3C00109660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03642AD82813617000BC490A /* FavoriteRecipesViewController.swift in Sources */,
+				03642ADA281361CF00BC490A /* FavoriteRecipeCell.swift in Sources */,
+				034D814A2800883D00109660 /* LoginViewController.swift in Sources */,
+				03642ADC281386F800BC490A /* RecipeDetailsViewController.swift in Sources */,
+				034D811E28007D3C00109660 /* ViewController.swift in Sources */,
+				034D814C2800896D00109660 /* FeedViewController.swift in Sources */,
+				CD04F09C2800E7AE004592E3 /* RecipeCell.swift in Sources */,
+				034D811A28007D3C00109660 /* AppDelegate.swift in Sources */,
+				CD04F09E2800E7DD004592E3 /* CreateRecipeViewController.swift in Sources */,
+				034D811C28007D3C00109660 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034D812828007D4100109660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034D813128007D4100109660 /* ParselyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		034D813228007D4100109660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034D813B28007D4100109660 /* ParselyUITests.swift in Sources */,
+				034D813D28007D4100109660 /* ParselyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		034D812E28007D4100109660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034D811528007D3C00109660 /* Parsely */;
+			targetProxy = 034D812D28007D4100109660 /* PBXContainerItemProxy */;
+		};
+		034D813828007D4100109660 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 034D811528007D3C00109660 /* Parsely */;
+			targetProxy = 034D813728007D4100109660 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		034D811F28007D3C00109660 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034D812028007D3C00109660 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		034D812428007D4000109660 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034D812528007D4000109660 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034D813E28007D4100109660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		034D813F28007D4100109660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		034D814128007D4100109660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43021A44B981601092E95F2 /* Pods-Parsely.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Parsely/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashboard.Parsely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		034D814228007D4100109660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF3D241715E7F9BC6295596C /* Pods-Parsely.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Parsely/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashboard.Parsely;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		034D814428007D4100109660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D889AD7D91A4A4CF2C8D24 /* Pods-ParselyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashboard.ParselyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsely.app/Parsely";
+			};
+			name = Debug;
+		};
+		034D814528007D4100109660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAACF8AB618F5C3E15A05CB8 /* Pods-ParselyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashboard.ParselyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Parsely.app/Parsely";
+			};
+			name = Release;
+		};
+		034D814728007D4100109660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57941D7238D1A61BB4021818 /* Pods-Parsely-ParselyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashboard.ParselyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parsely;
+			};
+			name = Debug;
+		};
+		034D814828007D4100109660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D20FB272A0AF88661C2D897 /* Pods-Parsely-ParselyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dashboard.ParselyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Parsely;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034D811128007D3C00109660 /* Build configuration list for PBXProject "Parsely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034D813E28007D4100109660 /* Debug */,
+				034D813F28007D4100109660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034D814028007D4100109660 /* Build configuration list for PBXNativeTarget "Parsely" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034D814128007D4100109660 /* Debug */,
+				034D814228007D4100109660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034D814328007D4100109660 /* Build configuration list for PBXNativeTarget "ParselyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034D814428007D4100109660 /* Debug */,
+				034D814528007D4100109660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034D814628007D4100109660 /* Build configuration list for PBXNativeTarget "ParselyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034D814728007D4100109660 /* Debug */,
+				034D814828007D4100109660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034D810E28007D3C00109660 /* Project object */;
+}
