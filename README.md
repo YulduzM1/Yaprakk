@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# Yaprak
+# Yaprak (Parsley)
 
 ## Table of Contents
 1. [Overview](#Overview)
